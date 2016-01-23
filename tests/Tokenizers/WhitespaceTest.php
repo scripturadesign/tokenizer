@@ -22,6 +22,7 @@ class WhitespaceTest extends \PHPUnit_Framework_TestCase
     /**
      * @test
      * @covers \Scriptura\Tokenizer\Tokenizers\Whitespace::tokenize
+     * @covers \Scriptura\Tokenizer\Tokenizers\Whitespace::<protected>
      */
     public function trim_whitespace_before_text()
     {
@@ -34,6 +35,7 @@ class WhitespaceTest extends \PHPUnit_Framework_TestCase
     /**
      * @test
      * @covers \Scriptura\Tokenizer\Tokenizers\Whitespace::tokenize
+     * @covers \Scriptura\Tokenizer\Tokenizers\Whitespace::<protected>
      */
     public function trim_whitespace_after_text()
     {
@@ -46,6 +48,7 @@ class WhitespaceTest extends \PHPUnit_Framework_TestCase
     /**
      * @test
      * @covers \Scriptura\Tokenizer\Tokenizers\Whitespace::tokenize
+     * @covers \Scriptura\Tokenizer\Tokenizers\Whitespace::<protected>
      */
     public function trim_whitespace_to_one_space_in_text()
     {
