@@ -52,5 +52,4 @@ class Simple implements Tokenizer
     {
         return trim($string);
     }
-
 }
