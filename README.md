@@ -7,7 +7,7 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-WIP
+Take a string an split it into a list of tokens.
 
 ## Install
 
